@@ -1,0 +1,151 @@
+Viewing a diff between 2 versions of a file
+
+
+At first, I followed manual method to find the differences between different
+versions of the same file.
+
+I found it a bit tedious to find the differences as I need to open up two 
+different versions of the same file side by side on the same window.
+
+I couldn't see the differences properly as the screen size was also small. 
+
+Above all, if the number of lines is less, finding the differences manually 
+could be possible.
+
+
+If the number of lines is more, then it is next to impossible to find the 
+differences between 2 different versions of a file.
+
+I wish I could have a tool to automatically find the differences between 2 
+different versions of a file for me. 
+
+Then I came to know about the in-built 'diff' command line option which does 
+the above task for us in Mac.
+
+I used 'diff' command line utility to find the differences between 2 different 
+versions of a file using the command 'diff -u previous_version.txt 
+latest_version.txt'
+
+I find it quite comfortable using the 'diff' utility rather than finding the 
+differences manually.
+
+It visualised the differences between 2 files on terminal with some markup.
+
+'+' indicates addition of new content
+
+'-' indicates removal of content
+
+With the help of that markup, I could be able to find the differences quite 
+comfortably
+
+Yet 'diff' tool has its own limitations too.
+
+If the line length is less (say not exceeding 80 chars), this tool can be 
+helpful to pinpoint the where exactly the difference lies.
+
+If your file's contents span only a single line with 1000s of chars, then this 
+tool can't pinpoint where exactly the change has happened.
+
+This tool can be helpful for files where the line has a reasonable length.
+
+I wonder if any other tool with added functionalities exists to find the 
+differences between 2 files.
+
+I'd be grateful if such a tool exists and I'm quite excited to use it. 
+
+
+
+
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Viewing a diff between two versions of a file really helped me to find where 
+I've gone wrong. I could visually see what are all the modifications done to a 
+file from it's previous version.
+
+
+
+
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It'd awesome to have the entire history of a file from the time when it was 
+created till now so that I can switch back to whatever version of the file I 
+like at any point of time. Also, it'll help me to analyse how the code flow 
+has changed over the period of time.
+
+
+
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+It's pretty good to manually choose when to commit to the remote repository by 
+ourselves. I personally don't want my changes get auto committed to the remote 
+repository because it could create more versions than required and cause to 
+mess up the history of changes made to the project.
+
+
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+It's actually pretty good to commit multiple files at one point of time. If it 
+doesn't allow me commit multiple files at a time, then I may have to commit 
+one file at a time which is very painful if I've changed more than 10 files.
+I think each system has their own limitations and also this feature might be beyond their scope.
+
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+I could be more confident than ever since I've my code checked in at a remote 
+repository so that even if I mess up with my local repository, I can always 
+fetch my backup from the remote repository. 
+
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+'git log' helps to view the commits made to a repository sorted by reverse 
+chronological order (means most latest commit first). At times, we can choose 
+to see who made the latest commit using this.
+
+
+'git diff' helps to view the difference between two versions of the same file 
+one of which resides in our local directory and the other resides in remote 
+repository. It helps me to handle conflicts in a file easily.
+
+Find the a particular commit id from the 'git log' results and use 
+'git diff commitID1 commitID2' to find the changes made to a file
+
+
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I wanna try to use Git to keep track of changes of all the files in my 
+repository. I wanna keep adding more projects to my workspace.
+
+
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+It makes me more confident to make changes that could break something that is already working just fine. Because I could switch back to the previous (working) version of my project at any point of time with ease.
