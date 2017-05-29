@@ -6,7 +6,21 @@ add commits to the repository by yourself. Git doesn't do it for you.
 
 
 
+
+
 How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
 
-Staging area is a place resides in between your working directory and repository. It offers great flexibility for us by providing an area where we can add whichever files we wish that should go into the repository in the next commit we are about to make.
+Staging area is a place resides in between your working directory and 
+repository. It offers great flexibility for us by providing an area where we 
+can add whichever files we wish that should go into the repository in the next 
+commit we are about to make.
+
+
+
+
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+I can compare my changes from my working directory to Staging area as well as from staging area to the repository. By looking at those 2 diffs, I can come to a conclusion whether or not I've one logical change per commit.
