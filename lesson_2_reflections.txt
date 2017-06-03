@@ -23,4 +23,50 @@ commit we are about to make.
 How can you use the staging area to make sure you have one commit per logical 
 change?
 
-I can compare my changes from my working directory to Staging area as well as from staging area to the repository. By looking at those 2 diffs, I can come to a conclusion whether or not I've one logical change per commit.
+I can compare my changes from my working directory to Staging area as well as 
+from staging area to the repository. By looking at those 2 diffs, I can come 
+to a conclusion whether or not I've one logical change per commit.
+
+
+
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+Branches are very helpful when you want to try to experiment something (say a 
+new feature) which varies from your production code. You can work on what you 
+wanna experiment without affecting the production code. This way branches are 
+very helpful.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are pretty helpful for visualizing the branch structure. It gives me 
+an in depth understanding of how branches work in git. If I have any confusion 
+of how branches in my repository works, I may go about drawing my branches on 
+paper first and then try to understand them.
+
+
+
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+Merging two branches causes a single branch to contains all the changes 
+contained by both branches in common. Git has in-built merge feature which 
+allows you to merge 2 different branches together. We represent this concept 
+diagramatically to have a keen understanding of what is going on when we merge.
+
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+If the file contains more lines of code, it'd be tedious to find where the 
+conflicts have occured manually. That's where git plays a significant role to 
+find out the conflicts automatically and use special markups to differentiate 
+the changes.
+
+Git's automatic merging might also cause adverse effects on files which we 
+wasn't what we expected.
