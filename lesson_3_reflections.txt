@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+When my code base looks good enough with a working version I can use a remote 
+repository. When I want to share my code base with other contributors who could 
+add more features to it, I can use a remote repository to share my code base 
+with them and vice versa.
