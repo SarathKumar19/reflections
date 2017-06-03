@@ -67,3 +67,17 @@ of the changes made to the remote when we are taking a short break from
 contributing to the remote. When we return back, we can keep track of the 
 changes made to the remote through the local copy using 'git diff' and 'git log'
 and merge them with ours. It helps us to resolve conflicts at the merge time.
+
+
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+Without Git and Github, I feel it's very hard to collaborate with others since 
+I got used to it right now. Before I get to know about Git and Github, I 
+would've zipped my code base, shared it with others and asked them to merge 
+their changes manually using some tools like 'diffMerge'. But I feel that it's 
+really terrible to do stuff that way. I don't find anything easier without Git 
+and Github for collaboration.
