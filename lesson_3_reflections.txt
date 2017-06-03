@@ -81,3 +81,19 @@ would've zipped my code base, shared it with others and asked them to merge
 their changes manually using some tools like 'diffMerge'. But I feel that it's 
 really terrible to do stuff that way. I don't find anything easier without Git 
 and Github for collaboration.
+
+
+
+
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+Creating a new branch to make changes is a good idea but not encourged to do so 
+very often. The need to create a branch arises only when you want to work on a
+new feature or a bug fix leaving the actual 'master' branch untouched. Also the 
+process of merging your branch with the master is also not so easy. It takes a 
+lot of effort to do so and you need to be cautious that the right changes 
+gets into 'master' branch. You can work directly on 'master' branch itself as
+long as there's no dependency upon the work you do for others working on the 
+same code base.
