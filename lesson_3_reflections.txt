@@ -24,3 +24,30 @@ changes.
 to a recent commit by some other contributor, and I were in the middle of 
 something (say adding a very small feature), then automatic pull introduces bug
 in my code as well.
+
+
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+Branches: Operates on a single repository which has it's own commit history 
+different from the 'master' (again master is branch). 
+
+Use 'branch' when you try to experiment with your product by adding a new 
+feature and you are not sure whether it works as long as the feature is 
+bounded to that single repository.
+
+Clones: Operates on repositories which is used to copy a repository from one
+place to another (say from remote machine to local machine or from one location 
+to another within a local machine)
+
+Use 'clone' when you want to copy an entire remote repository from Github to 
+your local machine or when you want to have a copy of your local repository in 
+some other location
+
+Forks: Operates on repositories but restricted to Github which is similar to 
+clone. Used to make a copy of someone else's remote repository into your remote
+repository.
+
+Use 'fork' when you want to copy someone else's remote repository on Github 
+directly into your own remote repository.
