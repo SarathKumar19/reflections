@@ -5,3 +5,22 @@ When my code base looks good enough with a working version I can use a remote
 repository. When I want to share my code base with other contributors who could 
 add more features to it, I can use a remote repository to share my code base 
 with them and vice versa.
+
+
+
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+Using Git to stay up-to-date by pulling changes automatically is a good idea
+but it won't be preferred in all cases. 
+
+-> If suppose myself and another contributor 
+were making changes to the same file and he pushed in changes to the remote
+before I do, it'll result in 'merge conflict' when git automatically try to pull
+changes. 
+
+-> If suppose the 'master' branch in remote repository has introduced a bug due 
+to a recent commit by some other contributor, and I were in the middle of 
+something (say adding a very small feature), then automatic pull introduces bug
+in my code as well.
