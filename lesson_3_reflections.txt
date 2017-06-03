@@ -9,6 +9,7 @@ with them and vice versa.
 
 
 
+
 Why might you want to always pull changes manually rather than having Git 
 automatically stay up-to-date with your remote repository?
 
@@ -24,6 +25,8 @@ changes.
 to a recent commit by some other contributor, and I were in the middle of 
 something (say adding a very small feature), then automatic pull introduces bug
 in my code as well.
+
+
 
 
 
@@ -51,3 +54,16 @@ repository.
 
 Use 'fork' when you want to copy someone else's remote repository on Github 
 directly into your own remote repository.
+
+
+
+
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+A copy of last known state of the remote stored locally can help us keep track 
+of the changes made to the remote when we are taking a short break from 
+contributing to the remote. When we return back, we can keep track of the 
+changes made to the remote through the local copy using 'git diff' and 'git log'
+and merge them with ours. It helps us to resolve conflicts at the merge time.
